@@ -118,3 +118,132 @@ input[type="submit"] {
     font-weight: bold;
     user-select: none;
 }
+
+.get-app-painel {
+    margin-top: 20px;
+    text-align: center;
+    user-select: none;
+}
+
+.app-buttons {
+    margin-top: 16px;
+}
+
+.app-buttons img {
+    height:40px;
+}
+
+footer{
+    text-align: center;
+    height: 50px;
+    margin-top: -50px;
+}
+
+footer a {
+    color: #000000;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.text-small {
+    font-size: 12px;
+    font-weight: bold;
+    color: #A1A1A1;
+    text-transform: uppercase;
+    padding-left: 20px;
+    display: inline-block;
+}
+
+/* Página SignUp*/
+
+#container-signup {
+    margin: 0 auto;
+    min-height: 100%;
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.message {
+    margin: 10px 70px;
+}
+
+.message span {
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 20px;
+    color:#A5A5A4;
+    user-select: none;
+}
+
+.cta-button {
+    width: 320px;
+    margin-top: 10px 0;
+    height: 35px;
+    border: 0;
+    border-radius: 4px;
+    background-color: #3C96ED;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.divisor-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.line {
+    height: 1px;
+    background-color: #E6E6E6;
+    width: 35%;
+}
+
+.divisor-tag {
+    font-weight: bold;
+    margin: 0 2.5%;
+    color: #A5A5A4;
+    user-select: none;
+}
+
+/* Resposividade */
+@media (max-width: 850px){
+    .left {
+        display: none;
+    }
+
+    #container {
+        width:70%;
+    }
+
+    .right {
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 560px){
+    #container {
+        width:90%;
+    }
+
+    #container-signup {
+        width: 90%;
+    }
+
+    input[type="password"], input[type="text"], input[type="submit"] {
+        width: 80%;
+    }
+
+    .cta-button {
+        width: 80%;
+    }
+
+    .message {
+        margin: 10px 25px;
+    }
+}
